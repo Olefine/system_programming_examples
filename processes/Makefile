@@ -1,5 +1,5 @@
 CFLAGS = -g -O2 --std=gnu99
 
-all:main
+all:main atexit zombie_proc daemon
 clear:
-	rm -f main
+	rm -f main atexit zombie_proc daemon
